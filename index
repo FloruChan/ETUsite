@@ -2,24 +2,20 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FLORU_CHAN • Media Kit</title>
-  
+
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/tilt-warp" rel="stylesheet">
-  
+
   <!-- Ícones (Font Awesome) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  
+
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
       background: #120F14;
@@ -34,11 +30,9 @@
     body::before {
       content: "";
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: 
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-image:
         radial-gradient(circle at 15% 25%, rgba(255, 179, 213, 0.03) 2px, transparent 2px),
         radial-gradient(circle at 85% 70%, rgba(185, 167, 255, 0.03) 2px, transparent 2px);
       background-size: 40px 40px, 60px 60px;
@@ -49,10 +43,8 @@
     body::after {
       content: "🌸🌸🌸";
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
       font-size: 120px;
       color: rgba(255, 179, 213, 0.02);
       white-space: pre;
@@ -187,10 +179,7 @@
       margin: 0.5rem 0 1rem;
     }
 
-    .profile-badge i {
-      margin-right: 6px;
-      color: #FF4FA3;
-    }
+    .profile-badge i { margin-right: 6px; color: #FF4FA3; }
 
     /* Redes sociais */
     .socials {
@@ -253,10 +242,7 @@
       flex-wrap: wrap;
     }
 
-    .card-title i {
-      color: #B9A7FF;
-      font-size: 28px;
-    }
+    .card-title i { color: #B9A7FF; font-size: 28px; }
 
     /* Nichos */
     .nichos-grid {
@@ -285,11 +271,7 @@
       transform: scale(1.02);
     }
 
-    .nicho-item i {
-      color: #FFB3D5;
-      margin-right: 8px;
-      font-size: 16px;
-    }
+    .nicho-item i { color: #FFB3D5; margin-right: 8px; font-size: 16px; }
 
     /* Diferenciais */
     .diferenciais-list {
@@ -311,15 +293,8 @@
       transition: all 0.2s ease;
     }
 
-    .diferencial-item:hover {
-      border-color: #B9A7FF;
-      background: rgba(185, 167, 255, 0.05);
-    }
-
-    .diferencial-item i {
-      font-size: 24px;
-      color: #FF4FA3;
-    }
+    .diferencial-item:hover { border-color: #B9A7FF; background: rgba(185, 167, 255, 0.05); }
+    .diferencial-item i { font-size: 24px; color: #FF4FA3; }
 
     /* Parcerias */
     .parcerias-grid {
@@ -390,9 +365,7 @@
     }
 
     @media (min-width: 600px) {
-      .pacotes-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
+      .pacotes-grid { grid-template-columns: repeat(2, 1fr); }
     }
 
     .pacote-card {
@@ -440,11 +413,7 @@
       font-family: 'Inter', sans-serif;
     }
 
-    .pacote-desc i {
-      color: #FF4FA3;
-      margin-right: 8px;
-      width: 20px;
-    }
+    .pacote-desc i { color: #FF4FA3; margin-right: 8px; width: 20px; }
 
     .pacote-btn {
       display: inline-block;
@@ -518,74 +487,25 @@
 
     /* Mobile adjustments */
     @media (max-width: 480px) {
-      .container {
-        padding: 70px 12px 15px;
-      }
-      
-      h1 {
-        font-size: 34px;
-      }
-      
-      .profile-pic {
-        width: 120px;
-        height: 120px;
-      }
-      
-      .language-switcher {
-        top: 10px;
-        right: 10px;
-      }
-      
-      .lang-btn {
-        width: 40px;
-        height: 40px;
-        font-size: 14px;
-      }
-      
-      .card {
-        padding: 20px 16px;
-      }
-      
-      .card-title {
-        font-size: 20px;
-      }
-      
-      .nicho-item {
-        padding: 12px 8px;
-        font-size: 14px;
-      }
-      
-      .diferenciais-list {
-        grid-template-columns: 1fr;
-      }
-      
-      .diferencial-item {
-        padding: 14px;
-        font-size: 14px;
-      }
-      
-      .parcerias-grid {
-        grid-template-columns: 1fr;
-      }
-      
-      .pacote-valor {
-        font-size: 32px;
-      }
-      
-      .contact-info {
-        font-size: 16px;
-        padding: 12px 16px;
-      }
-      
-      .propostas-btn {
-        padding: 14px 30px;
-        font-size: 16px;
-      }
+      .container { padding: 70px 12px 15px; }
+      h1 { font-size: 34px; }
+      .profile-pic { width: 120px; height: 120px; }
+      .language-switcher { top: 10px; right: 10px; }
+      .lang-btn { width: 40px; height: 40px; font-size: 14px; }
+      .card { padding: 20px 16px; }
+      .card-title { font-size: 20px; }
+      .nicho-item { padding: 12px 8px; font-size: 14px; }
+      .diferenciais-list { grid-template-columns: 1fr; }
+      .diferencial-item { padding: 14px; font-size: 14px; }
+      .parcerias-grid { grid-template-columns: 1fr; }
+      .pacote-valor { font-size: 32px; }
+      .contact-info { font-size: 16px; padding: 12px 16px; }
+      .propostas-btn { padding: 14px 30px; font-size: 16px; }
     }
   </style>
 </head>
-<body>
 
+<body>
   <!-- Botão de idioma -->
   <div class="language-switcher">
     <button class="lang-btn active" onclick="switchLanguage('pt')" id="lang-pt">PT</button>
@@ -598,53 +518,56 @@
       <div class="profile-pic">
         <img src="https://yt3.googleusercontent.com/Op6qE5pAfd_BUaSkk4LCl5IpJlaMdJUea5VWyjY3APIVwFm5eGor08FnZR2zl2Qc4xn09TGfFQ=s160-c-k-c0x00ffffff-no-rj" alt="FLORU_CHAN">
       </div>
+
       <h1>FLORU_CHAN</h1>
+
       <div class="profile-badge">
-        <i class="fas fa-sparkle"></i> <span id="badge-text">criadora de conteúdo • anime & manga</span>
+        <i class="fa-solid fa-sparkles"></i>
+        <span id="badge-text">criadora de conteúdo • anime & manga</span>
       </div>
 
       <!-- Redes Sociais -->
       <div class="socials">
-        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-twitch"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" target="_blank" aria-label="Twitch"><i class="fa-brands fa-twitch"></i></a>
+        <a href="#" target="_blank" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
       </div>
     </div>
 
     <!-- Nichos -->
     <div class="card">
       <div class="card-title">
-        <i class="fas fa-star"></i> <span id="nichos-title">NICHOS ABORDADOS</span>
+        <i class="fa-solid fa-star"></i> <span id="nichos-title">NICHOS ABORDADOS</span>
       </div>
       <div class="nichos-grid">
-        <div class="nicho-item"><i class="fas fa-tv"></i> <span id="nicho1">Animes</span></div>
-        <div class="nicho-item"><i class="fas fa-book-open"></i> <span id="nicho2">Manga</span></div>
-        <div class="nicho-item"><i class="fas fa-heart"></i> <span id="nicho3">Colecionismo</span></div>
+        <div class="nicho-item"><i class="fa-solid fa-tv"></i> <span id="nicho1">Animes</span></div>
+        <div class="nicho-item"><i class="fa-solid fa-book-open"></i> <span id="nicho2">Manga</span></div>
+        <div class="nicho-item"><i class="fa-solid fa-heart"></i> <span id="nicho3">Colecionismo</span></div>
       </div>
     </div>
 
     <!-- Diferenciais -->
     <div class="card">
       <div class="card-title">
-        <i class="fas fa-crown"></i> <span id="diferenciais-title">DIFERENCIAIS</span>
+        <i class="fa-solid fa-crown"></i> <span id="diferenciais-title">DIFERENCIAIS</span>
       </div>
       <div class="diferenciais-list">
         <div class="diferencial-item">
-          <i class="fas fa-calendar-check"></i>
+          <i class="fa-solid fa-calendar-check"></i>
           <div id="dif1">Consistência</div>
         </div>
         <div class="diferencial-item">
-          <i class="fas fa-layer-group"></i>
+          <i class="fa-solid fa-layer-group"></i>
           <div id="dif2">Variedade de formatos</div>
         </div>
         <div class="diferencial-item">
-          <i class="fas fa-scissors"></i>
+          <i class="fa-solid fa-scissors"></i>
           <div id="dif3">Qualidade de edição</div>
         </div>
         <div class="diferencial-item">
-          <i class="fas fa-feather"></i>
+          <i class="fa-solid fa-feather"></i>
           <div id="dif4">Qualidade de roteiro</div>
         </div>
       </div>
@@ -653,21 +576,21 @@
     <!-- Parcerias Atuais -->
     <div class="card">
       <div class="card-title">
-        <i class="fas fa-handshake"></i> <span id="parcerias-title">PARCERIAS ATUAIS</span>
+        <i class="fa-solid fa-handshake"></i> <span id="parcerias-title">PARCERIAS ATUAIS</span>
       </div>
       <div class="parcerias-grid">
         <!-- Iberanime -->
         <div class="parceria-card">
           <img src="https://play-lh.googleusercontent.com/5RxBpusLsnus5WWEnFw-lpIbOm9a-v3T1tb_A8HWPbs6E3bK5eGA3nCilUQET884qJk" alt="Iberanime PT">
           <h4>Iberanime PT</h4>
-          <a href="https://www.iberanime.com" target="_blank">iberanime.com</a>
+          <a href="https://www.iberanime.com" target="_blank" rel="noopener noreferrer">iberanime.com</a>
         </div>
-        
+
         <!-- Aliexpress -->
         <div class="parceria-card">
           <img src="https://m.media-amazon.com/images/I/41-1uF7Pn8L.png" alt="Aliexpress">
           <h4>Aliexpress</h4>
-          <a href="https://www.awin1.com/cread.php?awinmid=10748&awinaffid=1206502" target="_blank">aliexpress.com</a>
+          <a href="https://www.awin1.com/cread.php?awinmid=10748&awinaffid=1206502" target="_blank" rel="noopener noreferrer">aliexpress.com</a>
         </div>
       </div>
     </div>
@@ -675,30 +598,41 @@
     <!-- PACOTES ESPECIAIS -->
     <div class="card">
       <div class="card-title">
-        <i class="fas fa-gift"></i> <span id="pacotes-title">PACOTES MENSAIS</span>
+        <i class="fa-solid fa-gift"></i> <span id="pacotes-title">PACOTES MENSAIS</span>
       </div>
+
       <div class="pacotes-grid">
         <!-- Pacote 200€ -->
         <div class="pacote-card">
-          <i class="fas fa-sparkle" style="font-size: 32px; color: #FFB3D5;"></i>
+          <i class="fa-solid fa-wand-magic-sparkles" style="font-size: 32px; color: #FFB3D5;"></i>
           <div class="pacote-valor">200€</div>
           <div class="pacote-desc" id="pacote1-desc">
-            <i class="fas fa-check"></i> Menções semanais<br>
-            <i class="fas fa-check"></i> 1 vídeo short dedicado por semana
+            <i class="fa-solid fa-check"></i> Menções semanais<br>
+            <i class="fa-solid fa-check"></i> 1 vídeo short dedicado por semana
           </div>
-          <a href="mailto:contact.floruchan@GMAIL.COM?subject=Interesse%20no%20Pacote%20200%E2%82%AC&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0ATenho%20interesse%20no%20pacote%20de%20200%E2%82%AC%20mensais.%0A%0A%3E%20Men%C3%A7%C3%B5es%20semanais%0A%3E%201%20v%C3%ADdeo%20short%20dedicado%20por%20semana%0A%0APoder%C3%A1%20enviar%20mais%20informa%C3%A7%C3%B5es%3F%0A%0AObrigado%2C" class="pacote-btn" id="pacote1-btn">QUERO ESTE</a>
+          <a
+            id="mail-pacote-200"
+            href="mailto:contact.floruchan@gmail.com?subject=Interesse%20no%20Pacote%20200%E2%82%AC&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0ATenho%20interesse%20no%20pacote%20de%20200%E2%82%AC%20mensais.%0A%0A%3E%20Men%C3%A7%C3%B5es%20semanais%0A%3E%201%20v%C3%ADdeo%20short%20dedicado%20por%20semana%0A%0APoder%C3%A1%20enviar%20mais%20informa%C3%A7%C3%B5es%3F%0A%0AObrigado%2C"
+            class="pacote-btn"
+            id="pacote1-btn"
+          >QUERO ESTE</a>
         </div>
 
         <!-- Pacote personalizado -->
         <div class="pacote-card">
-          <i class="fas fa-dragon" style="font-size: 32px; color: #B9A7FF;"></i>
+          <i class="fa-solid fa-dragon" style="font-size: 32px; color: #B9A7FF;"></i>
           <div class="pacote-valor" id="sob-consulta">SOB CONSULTA</div>
           <div class="pacote-desc" id="pacote2-desc">
-            <i class="fas fa-check"></i> Pacote personalizado<br>
-            <i class="fas fa-check"></i> Campanha completa<br>
-            <i class="fas fa-check"></i> Conteúdo exclusivo
+            <i class="fa-solid fa-check"></i> Pacote personalizado<br>
+            <i class="fa-solid fa-check"></i> Campanha completa<br>
+            <i class="fa-solid fa-check"></i> Conteúdo exclusivo
           </div>
-          <a href="mailto:contact.floruchan@GMAIL.COM?subject=Interesse%20em%20Pacote%20Personalizado&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0AGostaria%20de%20saber%20mais%20sobre%20um%20pacote%20personalizado%20para%20colabora%C3%A7%C3%A3o.%0A%0APodemos%20conversar%3F%0A%0AObrigado%2C" class="pacote-btn" id="pacote2-btn">CONTACTAR</a>
+          <a
+            id="mail-pacote-custom"
+            href="mailto:contact.floruchan@gmail.com?subject=Interesse%20em%20Pacote%20Personalizado&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0AGostaria%20de%20saber%20mais%20sobre%20um%20pacote%20personalizado%20para%20colabora%C3%A7%C3%A3o.%0A%0APodemos%20conversar%3F%0A%0AObrigado%2C"
+            class="pacote-btn"
+            id="pacote2-btn"
+          >CONTACTAR</a>
         </div>
       </div>
     </div>
@@ -706,13 +640,19 @@
     <!-- Contato -->
     <div class="card" style="text-align: center;">
       <div class="card-title" style="justify-content: center;">
-        <i class="fas fa-envelope"></i> <span id="contacto-title">CONTACTO</span>
+        <i class="fa-solid fa-envelope"></i> <span id="contacto-title">CONTACTO</span>
       </div>
+
       <div class="contact-info">
-        contact.floruchan@GMAIL.COM
+        contact.floruchan@gmail.com
       </div>
-      <a href="mailto:contact.floruchan@GMAIL.COM?subject=Proposta%20de%20Colabora%C3%A7%C3%A3o&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0AVenho%20por%20este%20meio%20apresentar%20uma%20proposta%20de%20colabora%C3%A7%C3%A3o.%0A%0A%F0%9F%93%8A%20Detalhes%20da%20proposta%3A%0A%0A%0AAgrade%C3%A7o%20desde%20j%C3%A1%20a%20aten%C3%A7%C3%A3o%20e%20aguardo%20feedback.%0A%0AMelhores%20cumprimentos%2C" class="propostas-btn" id="propostas-btn">
-        <i class="fas fa-paper-plane"></i> PROPOSTAS
+
+      <a
+        id="mail-propostas"
+        href="mailto:contact.floruchan@gmail.com?subject=Proposta%20de%20Colabora%C3%A7%C3%A3o&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0AVenho%20por%20este%20meio%20apresentar%20uma%20proposta%20de%20colabora%C3%A7%C3%A3o.%0A%0A%F0%9F%93%8A%20Detalhes%20da%20proposta%3A%0A%0A%0AAgrade%C3%A7o%20desde%20j%C3%A1%20a%20aten%C3%A7%C3%A3o%20e%20aguardo%20feedback.%0A%0AMelhores%20cumprimentos%2C"
+        class="propostas-btn"
+      >
+        <i class="fa-solid fa-paper-plane"></i> <span id="propostas-btn-text">PROPOSTAS</span>
       </a>
     </div>
 
@@ -738,82 +678,92 @@
         dif4: "Qualidade de roteiro",
         parceriasTitle: "PARCERIAS ATUAIS",
         pacotesTitle: "PACOTES MENSAIS",
-        pacote1Desc: '<i class="fas fa-check"></i> Menções semanais<br><i class="fas fa-check"></i> 1 vídeo short dedicado por semana',
+        pacote1Desc: '<i class="fa-solid fa-check"></i> Menções semanais<br><i class="fa-solid fa-check"></i> 1 vídeo short dedicado por semana',
         pacote1Btn: "QUERO ESTE",
         sobConsulta: "SOB CONSULTA",
-        pacote2Desc: '<i class="fas fa-check"></i> Pacote personalizado<br><i class="fas fa-check"></i> Campanha completa<br><i class="fas fa-check"></i> Conteúdo exclusivo',
+        pacote2Desc: '<i class="fa-solid fa-check"></i> Pacote personalizado<br><i class="fa-solid fa-check"></i> Campanha completa<br><i class="fa-solid fa-check"></i> Conteúdo exclusivo',
         pacote2Btn: "CONTACTAR",
         contactoTitle: "CONTACTO",
         propostasBtn: "PROPOSTAS",
-        footer: "© 2026 FLORU_CHAN • Media Kit • Todos os direitos reservados"
+        footer: "© 2026 FLORU_CHAN • Media Kit • Todos os direitos reservados",
+        mails: {
+          pacote200: "mailto:contact.floruchan@gmail.com?subject=Interesse%20no%20Pacote%20200%E2%82%AC&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0ATenho%20interesse%20no%20pacote%20de%20200%E2%82%AC%20mensais.%0A%0A%3E%20Men%C3%A7%C3%B5es%20semanais%0A%3E%201%20v%C3%ADdeo%20short%20dedicado%20por%20semana%0A%0APoder%C3%A1%20enviar%20mais%20informa%C3%A7%C3%B5es%3F%0A%0AObrigado%2C",
+          pacoteCustom: "mailto:contact.floruchan@gmail.com?subject=Interesse%20em%20Pacote%20Personalizado&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0AGostaria%20de%20saber%20mais%20sobre%20um%20pacote%20personalizado%20para%20colabora%C3%A7%C3%A3o.%0A%0APodemos%20conversar%3F%0A%0AObrigado%2C",
+          propostas: "mailto:contact.floruchan@gmail.com?subject=Proposta%20de%20Colabora%C3%A7%C3%A3o&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0AVenho%20por%20este%20meio%20apresentar%20uma%20proposta%20de%20colabora%C3%A7%C3%A3o.%0A%0A%F0%9F%93%8A%20Detalhes%20da%20proposta%3A%0A%0A%0AAgrade%C3%A7o%20desde%20j%C3%A1%20a%20aten%C3%A7%C3%A3o%20e%20aguardo%20feedback.%0A%0AMelhores%20cumprimentos%2C"
+        }
       },
       en: {
         badge: "content creator • anime & manga",
-        nichosTitle: "NICHOS ABORDADOS",
+        nichosTitle: "CONTENT NICHES",
         nicho1: "Anime",
         nicho2: "Manga",
         nicho3: "Collecting",
-        diferenciaisTitle: "DIFERENCIAIS",
+        diferenciaisTitle: "HIGHLIGHTS",
         dif1: "Consistency",
         dif2: "Variety of formats",
         dif3: "Editing quality",
         dif4: "Script quality",
-        parceriasTitle: "PARCERIAS ATUAIS",
-        pacotesTitle: "PACOTES MENSAIS",
-        pacote1Desc: '<i class="fas fa-check"></i> Weekly mentions<br><i class="fas fa-check"></i> 1 dedicated short video per week',
+        parceriasTitle: "CURRENT PARTNERS",
+        pacotesTitle: "MONTHLY PACKAGES",
+        pacote1Desc: '<i class="fa-solid fa-check"></i> Weekly mentions<br><i class="fa-solid fa-check"></i> 1 dedicated short video per week',
         pacote1Btn: "I WANT THIS",
         sobConsulta: "CUSTOM",
-        pacote2Desc: '<i class="fas fa-check"></i> Custom package<br><i class="fas fa-check"></i> Complete campaign<br><i class="fas fa-check"></i> Exclusive content',
+        pacote2Desc: '<i class="fa-solid fa-check"></i> Custom package<br><i class="fa-solid fa-check"></i> Full campaign<br><i class="fa-solid fa-check"></i> Exclusive content',
         pacote2Btn: "CONTACT",
         contactoTitle: "CONTACT",
         propostasBtn: "PROPOSALS",
-        footer: "© 2026 FLORU_CHAN • Media Kit • All rights reserved"
+        footer: "© 2026 FLORU_CHAN • Media Kit • All rights reserved",
+        mails: {
+          pacote200: "mailto:contact.floruchan@gmail.com?subject=Interest%20in%20the%20200%E2%82%AC%20Package&body=Hello%20FLORU_CHAN%2C%0A%0AI'm%20interested%20in%20the%20200%E2%82%AC%20monthly%20package.%0A%0A%3E%20Weekly%20mentions%0A%3E%201%20dedicated%20short%20video%20per%20week%0A%0ACould%20you%20send%20more%20information%3F%0A%0AThanks%2C",
+          pacoteCustom: "mailto:contact.floruchan@gmail.com?subject=Interest%20in%20Custom%20Package&body=Hello%20FLORU_CHAN%2C%0A%0AI%20would%20like%20to%20know%20more%20about%20a%20custom%20package%20for%20collaboration.%0A%0ACan%20we%20talk%3F%0A%0AThanks%2C",
+          propostas: "mailto:contact.floruchan@gmail.com?subject=Collaboration%20Proposal&body=Hello%20FLORU_CHAN%2C%0A%0AI%20am%20writing%20to%20present%20a%20collaboration%20proposal.%0A%0A%F0%9F%93%8A%20Proposal%20details%3A%0A%0A%0AThank%20you%20for%20your%20attention%20and%20I%20look%20forward%20to%20your%20feedback.%0A%0ABest%20regards%2C"
+        }
       }
     };
 
     function switchLanguage(lang) {
-      // Atualizar botões ativos
+      // botões
       document.getElementById('lang-pt').classList.remove('active');
       document.getElementById('lang-en').classList.remove('active');
       document.getElementById(`lang-${lang}`).classList.add('active');
 
-      // Atualizar textos
+      // textos
       document.getElementById('badge-text').textContent = translations[lang].badge;
       document.getElementById('nichos-title').textContent = translations[lang].nichosTitle;
       document.getElementById('nicho1').textContent = translations[lang].nicho1;
       document.getElementById('nicho2').textContent = translations[lang].nicho2;
       document.getElementById('nicho3').textContent = translations[lang].nicho3;
-      
+
       document.getElementById('diferenciais-title').textContent = translations[lang].diferenciaisTitle;
       document.getElementById('dif1').textContent = translations[lang].dif1;
       document.getElementById('dif2').textContent = translations[lang].dif2;
       document.getElementById('dif3').textContent = translations[lang].dif3;
       document.getElementById('dif4').textContent = translations[lang].dif4;
-      
+
       document.getElementById('parcerias-title').textContent = translations[lang].parceriasTitle;
-      
+
       document.getElementById('pacotes-title').textContent = translations[lang].pacotesTitle;
       document.getElementById('pacote1-desc').innerHTML = translations[lang].pacote1Desc;
       document.getElementById('pacote1-btn').textContent = translations[lang].pacote1Btn;
       document.getElementById('sob-consulta').textContent = translations[lang].sobConsulta;
       document.getElementById('pacote2-desc').innerHTML = translations[lang].pacote2Desc;
       document.getElementById('pacote2-btn').textContent = translations[lang].pacote2Btn;
-      
+
       document.getElementById('contacto-title').textContent = translations[lang].contactoTitle;
-      document.getElementById('propostas-btn').innerHTML = `<i class="fas fa-paper-plane"></i> ${translations[lang].propostasBtn}`;
+      document.getElementById('propostas-btn-text').textContent = translations[lang].propostasBtn;
       document.getElementById('footer-text').textContent = translations[lang].footer;
 
-      // Atualizar emails
-      if (lang === 'en') {
-        document.querySelector('.pacote-card a[href*="200%E2%82%AC"]').href = "mailto:contact.floruchan@GMAIL.COM?subject=Interest%20in%20the%20200%E2%82%AC%20Package&body=Hello%20FLORU_CHAN%2C%0A%0AI'm%20interested%20in%20the%20200%E2%82%AC%20monthly%20package.%0A%0A%3E%20Weekly%20mentions%0A%3E%201%20dedicated%20short%20video%20per%20week%0A%0ACould%20you%20send%20more%20information%3F%0A%0AThanks%2C";
-        document.querySelector('.pacote-card a[href*="Personalizado"]').href = "mailto:contact.floruchan@GMAIL.COM?subject=Interest%20in%20Custom%20Package&body=Hello%20FLORU_CHAN%2C%0A%0AI%20would%20like%20to%20know%20more%20about%20a%20custom%20package%20for%20collaboration.%0A%0ACan%20we%20talk%3F%0A%0AThanks%2C";
-        document.querySelector('.propostas-btn').href = "mailto:contact.floruchan@GMAIL.COM?subject=Collaboration%20Proposal&body=Hello%20FLORU_CHAN%2C%0A%0AI%20am%20writing%20to%20present%20a%20collaboration%20proposal.%0A%0A%F0%9F%93%8A%20Proposal%20details%3A%0A%0A%0AThank%20you%20for%20your%20attention%20and%20I%20look%20forward%20to%20your%20feedback.%0A%0ABest%20regards%2C";
-      } else {
-        document.querySelector('.pacote-card a[href*="200%E2%82%AC"]').href = "mailto:contact.floruchan@GMAIL.COM?subject=Interesse%20no%20Pacote%20200%E2%82%AC&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0ATenho%20interesse%20no%20pacote%20de%20200%E2%82%AC%20mensais.%0A%0A%3E%20Men%C3%A7%C3%B5es%20semanais%0A%3E%201%20v%C3%ADdeo%20short%20dedicado%20por%20semana%0A%0APoder%C3%A1%20enviar%20mais%20informa%C3%A7%C3%B5es%3F%0A%0AObrigado%2C";
-        document.querySelector('.pacote-card a[href*="Personalizado"]').href = "mailto:contact.floruchan@GMAIL.COM?subject=Interesse%20em%20Pacote%20Personalizado&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0AGostaria%20de%20saber%20mais%20sobre%20um%20pacote%20personalizado%20para%20colabora%C3%A7%C3%A3o.%0A%0APodemos%20conversar%3F%0A%0AObrigado%2C";
-        document.querySelector('.propostas-btn').href = "mailto:contact.floruchan@GMAIL.COM?subject=Proposta%20de%20Colabora%C3%A7%C3%A3o&body=Ol%C3%A1%20FLORU_CHAN%2C%0A%0AVenho%20por%20este%20meio%20apresentar%20uma%20proposta%20de%20colabora%C3%A7%C3%A3o.%0A%0A%F0%9F%93%8A%20Detalhes%20da%20proposta%3A%0A%0A%0AAgrade%C3%A7o%20desde%20j%C3%A1%20a%20aten%C3%A7%C3%A3o%20e%20aguardo%20feedback.%0A%0AMelhores%20cumprimentos%2C";
-      }
+      // mails (por ID, sem drama)
+      document.getElementById('mail-pacote-200').href = translations[lang].mails.pacote200;
+      document.getElementById('mail-pacote-custom').href = translations[lang].mails.pacoteCustom;
+      document.getElementById('mail-propostas').href = translations[lang].mails.propostas;
+
+      // lang attr
+      document.documentElement.lang = (lang === 'pt') ? 'pt' : 'en';
     }
+
+    // opcional: garantir estado inicial consistente
+    switchLanguage('pt');
   </script>
 
   <!-- Efeito sonoro -->
@@ -821,12 +771,11 @@
   <script>
     const clickSound = document.getElementById("clickSound");
     document.querySelectorAll("a").forEach(link => {
-      link.addEventListener("click", (e) => {
+      link.addEventListener("click", () => {
         clickSound.currentTime = 0;
-        clickSound.play();
+        clickSound.play().catch(() => {});
       });
     });
   </script>
-
 </body>
 </html>
